@@ -5,9 +5,9 @@ replicasCount: 3
 image:
   harvester:
     csiDriver:
-      repository: rancher/harvester-csi-driver
+      repository: webberhuang/harvester-csi-driver
       # Overrides the image tag whose default is the chart appVersion.
-      tag: "v0.2.3"
+      tag: "v0.2.4"
   csi:
     nodeDriverRegistrar:
       repository: rancher/mirrored-longhornio-csi-node-driver-registrar
